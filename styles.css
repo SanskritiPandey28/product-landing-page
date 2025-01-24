@@ -1,0 +1,144 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3498db;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  #header-img {
+    height: 50px;
+  }
+  
+  #nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #nav-bar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  /* Features Section */
+  .features{
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    background-color: #55aaa7;
+  }
+  
+.basic, .advanced, .premium{
+    width: 100%; 
+    height: 100%; 
+    border: 2px solid #3498db; /* Border with color */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #f4f4f4; /* Light background */
+    padding: 20px; 
+    margin:20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+}
+
+  
+  /* Inner Content Styling */
+  .inner-content {
+    text-align: center; /* Center-align text */
+    font-size: 16px;
+    color: #333; /* Text color */
+  }
+  
+ 
+  
+  /* Video Section */
+  #video-section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #video {
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+  }
+  
+
+
+ 
+  #form input {
+    padding: 10px;
+    margin: 5px;
+    width: 80%;
+    max-width: 300px;
+  }
+  
+  #submit, #button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  #button{
+    text-align: center;
+    position:relative;
+    left:80px;
+  }
+
+
+  
+  #submit:hover {
+    background-color: #2874a6;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin:20px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    #nav-bar ul {
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+  
